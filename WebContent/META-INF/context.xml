@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource
+		name = "jdbc/oracle"
+		auth = "Container"
+		type = "javax.sql.DataSource"
+		
+		driverClassName = "com.mysql.jdbc.Driver"
+		url = "jdbc:mysql://localhost:3306/projectr"
+		username = "root"
+		password = "1234"
+		
+		maxTotal = "20"
+		maxWaitMillis = "5000"
+	/>
+</Context>
+
+<!-- oracle -->
+<!-- driverClassName = "oracle.jdbc.driver.OracleDriver" -->
+<!-- 		url = "jdbc:oracle:thin:@localhost:1521:orcl" -->
+<!-- 		username = "scott" -->
+<!-- 		password = "tiger" -->
+
